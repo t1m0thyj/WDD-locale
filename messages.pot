@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: WinDynamicDesktop\n"
-"POT-Creation-Date: 2019-03-05 09:10-0500\n"
+"POT-Creation-Date: 2019-05-09 07:14-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,23 +13,23 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: src\AboutDialog.cs:58
+#: src\AboutDialog.cs:78
 msgid "Thanks to:"
 msgstr ""
 
-#: src\AboutDialog.cs:60
+#: src\AboutDialog.cs:80
 msgid "Apple for the Mojave wallpapers"
 msgstr ""
 
-#: src\AboutDialog.cs:61
+#: src\AboutDialog.cs:81
 msgid "Contributors on GitHub"
 msgstr ""
 
-#: src\AboutDialog.cs:62
+#: src\AboutDialog.cs:82
 msgid "LocationIQ for their free geocoding API"
 msgstr ""
 
-#: src\AboutDialog.cs:63
+#: src\AboutDialog.cs:83
 msgid "Roundicons from flaticon.com for the icon (licensed by CC 3.0 BY)"
 msgstr ""
 
@@ -41,7 +41,7 @@ msgstr ""
 msgid "Port of macOS Mojave Dynamic Desktop feature to Windows 10"
 msgstr ""
 
-#: src\AboutDialog.Designer.cs:97 src\ThemeDialog.Designer.cs:170
+#: src\AboutDialog.Designer.cs:97 src\ThemeDialog.Designer.cs:146
 msgid "Close"
 msgstr ""
 
@@ -49,47 +49,43 @@ msgstr ""
 msgid "Credits"
 msgstr ""
 
-#: src\AboutDialog.Designer.cs:119
+#: src\AboutDialog.Designer.cs:120
 msgid "Donate"
 msgstr ""
 
-#: src\AboutDialog.Designer.cs:154
+#: src\AboutDialog.Designer.cs:155
 msgid "About WinDynamicDesktop"
 msgstr ""
 
-#: src\AppContext.cs:67
+#: src\AppContext.cs:66
 msgid "Another instance of WinDynamicDesktop is already running. You can access it by clicking on the icon in the system tray."
 msgstr ""
 
-#: src\AppContext.cs:69 src\InputDialog.cs:115 src\InputDialog.cs:135 src\ThemeDialog.cs:248 src\ThemeManager.cs:145 src\ThemeManager.cs:252 src\ThemeManager.cs:298 src\UpdateChecker.cs:100
+#: src\AppContext.cs:68 src\InputDialog.cs:113 src\InputDialog.cs:129 src\ThemeLoader.cs:79 src\ThemeLoader.cs:86 src\UpdateChecker.cs:104
 msgid "Error"
 msgstr ""
 
-#: src\AppContext.cs:111
-msgid "The app is still running in the background. You can access it at any time by clicking on the icon in the system tray."
-msgstr ""
-
-#: src\InputDialog.cs:93
+#: src\InputDialog.cs:97
 msgid ""
 "Is this location correct?\n"
 "\n"
 "{0}\n"
-"Sunrise: {1}, Sunset: {2}"
+"{1}"
 msgstr ""
 
-#: src\InputDialog.cs:96 src\InputDialog.cs:154 src\ThemeDialog.cs:446 src\ThemeDialog.cs:474 src\ThemeManager.cs:96
+#: src\InputDialog.cs:99 src\InputDialog.cs:148 src\LanguageDialog.cs:60 src\ThemeDialog.cs:446 src\ThemeDialog.cs:473 src\ThemeLoader.cs:110
 msgid "Question"
 msgstr ""
 
-#: src\InputDialog.cs:112
+#: src\InputDialog.cs:110
 msgid "The location you entered was invalid, or you are not connected to the Internet. Check your Internet connection and try a different location. You can use a complete address or just the name of your city/region."
 msgstr ""
 
-#: src\InputDialog.cs:134
+#: src\InputDialog.cs:128
 msgid "Failed to get location from Windows location service."
 msgstr ""
 
-#: src\InputDialog.cs:151
+#: src\InputDialog.cs:145
 msgid "WinDynamicDesktop cannot display wallpapers until you have entered a valid location, so that it can calculate sunrise and sunset times for your location. Are you sure you want to cancel and quit the program?"
 msgstr ""
 
@@ -97,11 +93,11 @@ msgstr ""
 msgid "Enter your location:"
 msgstr ""
 
-#: src\InputDialog.Designer.cs:62
+#: src\InputDialog.Designer.cs:62 src\LanguageDialog.Designer.cs:61
 msgid "OK"
 msgstr ""
 
-#: src\InputDialog.Designer.cs:73
+#: src\InputDialog.Designer.cs:73 src\LanguageDialog.Designer.cs:72
 msgid "Cancel"
 msgstr ""
 
@@ -113,67 +109,135 @@ msgstr ""
 msgid "Change Location"
 msgstr ""
 
-#: src\LocationManager.cs:40
+#: src\LanguageDialog.cs:58
+msgid "WinDynamicDesktop needs to restart for the language to change. Do you want to restart the app now?"
+msgstr ""
+
+#: src\LanguageDialog.Designer.cs:44
+msgid "Select the language to use in WinDynamicDesktop:"
+msgstr ""
+
+#: src\LanguageDialog.Designer.cs:103
+msgid "Select Language"
+msgstr ""
+
+#: src\LaunchSequence.cs:36
 msgid "Welcome! Please enter your location so the app can determine sunrise and sunset times."
 msgstr ""
 
-#: src\MainMenu.cs:33
+#: src\LaunchSequence.cs:49
+msgid "The app is still running in the background. You can access it at any time by clicking on the icon in the system tray."
+msgstr ""
+
+#: src\MainMenu.cs:37
 msgid "&Select Theme..."
 msgstr ""
 
-#: src\MainMenu.cs:40
+#: src\MainMenu.cs:44
 msgid "&Change Location..."
 msgstr ""
 
-#: src\MainMenu.cs:44
+#: src\MainMenu.cs:48
 msgid "Enable &Dark Mode"
 msgstr ""
 
-#: src\MainMenu.cs:46
+#: src\MainMenu.cs:50
 msgid "&Start on Boot"
 msgstr ""
 
-#: src\MainMenu.cs:48
+#: src\MainMenu.cs:52
 msgid "More &Options"
 msgstr ""
 
-#: src\MainMenu.cs:53
+#: src\MainMenu.cs:57
 msgid "&Refresh Wallpaper"
 msgstr ""
 
-#: src\MainMenu.cs:59
+#: src\MainMenu.cs:63
 msgid "&Check for Updates"
 msgstr ""
 
-#: src\MainMenu.cs:62
+#: src\MainMenu.cs:64
+msgid "&About"
+msgstr ""
+
+#: src\MainMenu.cs:66
 msgid "E&xit"
 msgstr ""
 
-#: src\ProgressDialog.cs:48
+#: src\MainMenu.cs:76
+msgid "Select &Language..."
+msgstr ""
+
+#: src\ProgressDialog.cs:53
 msgid "Importing themes, please wait..."
 msgstr ""
 
-#: src\ProgressDialog.Designer.cs:42
+#: src\ProgressDialog.cs:103
+msgid "Downloading images for '{0}'..."
+msgstr ""
+
+#: src\ProgressDialog.cs:154
+msgid "Importing theme from {0}..."
+msgstr ""
+
+#: src\ProgressDialog.cs:176
+msgid "{0} MB/s"
+msgstr ""
+
+#: src\ProgressDialog.cs:179
+msgid "{0} MB of {1} MB"
+msgstr ""
+
+#: src\ProgressDialog.cs:205
+msgid "Failed to download images for the '{0}' theme. Do you want to try again?"
+msgstr ""
+
+#: src\ProgressDialog.cs:216
+msgid "Failed to download images for the '{0}' theme"
+msgstr ""
+
+#: src\ProgressDialog.Designer.cs:45
 msgid "Downloading images, please wait..."
 msgstr ""
 
-#: src\ThemeDialog.cs:129
+#: src\ProgressDialog.Designer.cs:64
+msgid "0 MB of 0 MB"
+msgstr ""
+
+#: src\ProgressDialog.Designer.cs:76
+msgid "0 MB/s"
+msgstr ""
+
+#: src\SunriseSunset.cs:87
+msgid "Sunrise/Sunset: Up all day"
+msgstr ""
+
+#: src\SunriseSunset.cs:89
+msgid "Sunrise/Sunset: Down all day"
+msgstr ""
+
+#: src\SunriseSunset.cs:91
+msgid "Sunrise: {0}, Sunset: {1}"
+msgstr ""
+
+#: src\SystemThemeChanger.cs:31
+msgid "&Change Windows 10 theme color"
+msgstr ""
+
+#: src\ThemeDialog.cs:153
 msgid "Image Credits: {0}"
 msgstr ""
 
-#: src\ThemeDialog.cs:134
+#: src\ThemeDialog.cs:158
 msgid "Image Credits: Microsoft"
 msgstr ""
 
-#: src\ThemeDialog.cs:202
+#: src\ThemeDialog.cs:215
 msgid "Image {0} of {1}"
 msgstr ""
 
-#: src\ThemeDialog.cs:247
-msgid "Failed to download images for the '{0}' theme."
-msgstr ""
-
-#: src\ThemeDialog.cs:283
+#: src\ThemeDialog.cs:274
 msgid "None"
 msgstr ""
 
@@ -181,66 +245,97 @@ msgstr ""
 msgid "Are you sure you want to remove the '{0}' theme?"
 msgstr ""
 
-#: src\ThemeDialog.cs:472
+#: src\ThemeDialog.cs:471
 msgid "WinDynamicDesktop cannot dynamically update your wallpaper until you have selected a theme. Are you sure you want to continue without a theme selected?"
 msgstr ""
 
-#: src\ThemeDialog.Designer.cs:79
+#: src\ThemeDialog.Designer.cs:67
 msgid "Preview"
 msgstr ""
 
-#: src\ThemeDialog.Designer.cs:147
-msgid "Enable Dark Mode"
-msgstr ""
-
-#: src\ThemeDialog.Designer.cs:158
+#: src\ThemeDialog.Designer.cs:134
 msgid "Apply"
 msgstr ""
 
-#: src\ThemeDialog.Designer.cs:182
+#: src\ThemeDialog.Designer.cs:159
 msgid "Get more themes online"
 msgstr ""
 
-#: src\ThemeDialog.Designer.cs:191
+#: src\ThemeDialog.Designer.cs:169
 msgid "Import from file..."
 msgstr ""
 
-#: src\ThemeDialog.Designer.cs:215
+#: src\ThemeDialog.Designer.cs:193
 msgid "Remove"
 msgstr ""
 
-#: src\ThemeDialog.Designer.cs:249
+#: src\ThemeDialog.Designer.cs:238
 msgid "Select Theme"
 msgstr ""
 
-#: src\ThemeManager.cs:95
-msgid "The '{0}' theme is already installed. Do you want to overwrite it?"
+#: src\ThemeLoader.cs:31
+msgid "Theme JSON file could not be found."
 msgstr ""
 
-#: src\ThemeManager.cs:144
+#: src\ThemeLoader.cs:51
+msgid "Theme JSON file could not be read because its format is invalid."
+msgstr ""
+
+#: src\ThemeLoader.cs:57
+msgid "Theme JSON file is missing required fields. These include 'dayImageList', 'imageFilename', 'nightImageList', 'sunriseImageList', and 'sunsetImageList'."
+msgstr ""
+
+#: src\ThemeLoader.cs:77
 msgid ""
-"Failed to import theme from {0}\n"
+"Failed to load '{0}' theme:\n"
+"{1}\n"
 "\n"
+"Do you want to disable this theme to prevent the error from happening again?"
+msgstr ""
+
+#: src\ThemeLoader.cs:85
+msgid ""
+"Failed to import '{0}' theme:\n"
 "{1}"
 msgstr ""
 
-#: src\ThemeManager.cs:250
-msgid "The '{0}' theme could not be loaded and has been disabled. This is probably because it was created for an older version of the app or its config file is formatted incorrectly."
+#: src\ThemeLoader.cs:126 src\ThemeLoader.cs:190
+msgid "Failed to find the location {0}"
 msgstr ""
 
-#: src\ThemeManager.cs:296
-msgid "Failed to download images. Click Retry to try again, Ignore to continue with some themes disabled, or Abort to exit the program."
+#: src\ThemeLoader.cs:147
+msgid "No theme JSON found in the ZIP file {0}"
 msgstr ""
 
-#: src\UpdateChecker.cs:53
+#: src\ThemeLoader.cs:159
+msgid "No images found in the ZIP file {0}"
+msgstr ""
+
+#: src\ThemeLoader.cs:172
+msgid "Failed to read the ZIP file at {0} because its format is invalid."
+msgstr ""
+
+#: src\ThemeLoader.cs:207
+msgid "Failed to copy the image file {0}"
+msgstr ""
+
+#: src\ThemeManager.cs:99
+msgid "The '{0}' theme is already installed. Do you want to overwrite it?"
+msgstr ""
+
+#: src\ThemeManager.cs:209
+msgid "Failed to find images for the '{0}' theme"
+msgstr ""
+
+#: src\UpdateChecker.cs:57
 msgid "Check for &updates automatically once a week"
 msgstr ""
 
-#: src\UpdateChecker.cs:99
+#: src\UpdateChecker.cs:103
 msgid "WinDynamicDesktop could not connect to the Internet to check for updates."
 msgstr ""
 
-#: src\UpdateChecker.cs:104
+#: src\UpdateChecker.cs:108
 msgid ""
 "There is a newer version of WinDynamicDesktop available. Do you want to download the update now?\n"
 "\n"
@@ -248,26 +343,26 @@ msgid ""
 "Latest Version: {1}"
 msgstr ""
 
-#: src\UpdateChecker.cs:107 src\UpdateChecker.cs:134 src\UpdateChecker.cs:174
+#: src\UpdateChecker.cs:111 src\UpdateChecker.cs:138 src\UpdateChecker.cs:176
 msgid "Update Available"
 msgstr ""
 
-#: src\UpdateChecker.cs:116
+#: src\UpdateChecker.cs:120
 msgid "You already have the latest version of WinDynamicDesktop installed."
 msgstr ""
 
-#: src\UpdateChecker.cs:117
+#: src\UpdateChecker.cs:121
 msgid "Up To Date"
 msgstr ""
 
-#: src\UpdateChecker.cs:133
+#: src\UpdateChecker.cs:137
 msgid "WinDynamicDesktop {0} is available. Click here to download it."
 msgstr ""
 
-#: src\UwpLocation.cs:44
+#: src\UwpLocation.cs:48
 msgid "WinDynamicDesktop needs location access for this feature. Click OK to open the Windows 10 location settings and grant location access to the app, then select the checkbox again."
 msgstr ""
 
-#: src\UwpLocation.cs:47
+#: src\UwpLocation.cs:51
 msgid "Location Access"
 msgstr ""
