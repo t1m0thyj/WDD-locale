@@ -1,6 +1,8 @@
 # WDD-locale
 Translation files for WinDynamicDesktop
 
+# This repo has been archived. Translations are now hosted on [Zanata](https://translate.zanata.org/project/view/windynamicdesktop). More details can be found [here](https://github.com/t1m0thyj/WinDynamicDesktop/wiki/Translating-the-app).
+
 ## Creating New Translation
 
 * Download the latest `messages.pot` file from [here](https://github.com/t1m0thyj/WDD-locale/blob/master/messages.pot)
